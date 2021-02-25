@@ -1,0 +1,26 @@
+{
+  "name": "rollup-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wangxq03/rollup-library.git",
+  "author": "wangxq <wangxiaoqian@troila.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run rollup -c",
+    "start": "yarn run rollup -c -w"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "react": "^17.0.1",
+    "rollup": "^2.39.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-watch": "^4.3.1"
+  },
+  "devDependencies": {
+    "react-dom": "^17.0.1"
+  }
+}
